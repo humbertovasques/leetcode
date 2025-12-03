@@ -1,4 +1,4 @@
-package com.study.leetcode.p26;
+package com.study.leetcode.problems;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

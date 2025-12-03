@@ -1,5 +1,6 @@
-package com.study.leetcode;
+package com.study.leetcode.problems;
 
+// TODO: Refatorar quando refazer esse problema
 // 14. Longest Common Prefix
 public class Problem14 {
     public static void main(String[] args) {

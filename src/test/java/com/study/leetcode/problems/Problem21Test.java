@@ -1,5 +1,6 @@
-package com.study.leetcode.problem21;
+package com.study.leetcode.problems;
 
+import com.study.leetcode.common.ListNode;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -11,7 +12,7 @@ import java.util.stream.Stream;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.params.provider.Arguments.arguments;
 
-class MergeTwoListsTest {
+class Problem21Test {
 
     @ParameterizedTest
     @MethodSource("provideListsForMerge")

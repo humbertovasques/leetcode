@@ -1,4 +1,6 @@
-package com.study.leetcode.problem21;
+package com.study.leetcode.problems;
+
+import com.study.leetcode.common.ListNode;
 
 public class Problem21 {
 
