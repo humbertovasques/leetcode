@@ -27,6 +27,7 @@ class Problem58Test {
         return Stream.of(
             Arguments.of("Hello World", 5),
             Arguments.of("   fly me    to    the moon    ", 4),
+            Arguments.of("   ", 0),
             Arguments.of("a", 1),
             Arguments.of("aa", 2),
             Arguments.of("luffy is still joyboy", 6)

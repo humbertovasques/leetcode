@@ -1,5 +1,6 @@
 package com.study.leetcode.problems;
 
+//[58]Lenght of Last Word
 //Given a string s consisting of words and spaces, return the length of the
 //last word in the string.
 //
@@ -40,6 +41,21 @@ package com.study.leetcode.problems;
 
 public class Problem58 {
     public int lengthOfLastWord(String s) {
+        int i = s.length() - 1;
+        while (i >= 0 && s.charAt(i) == ' ') {
+            i--;
+        }
+
+        int lenght = 0;
+        while (i >= 0 && s.charAt(i) != ' ') {
+            lenght++;
+            i--;
+        }
+
+        return lenght;
+    }
+
+    public int lengthOfLastWordV1(String s) {
         if (s == null || s.isEmpty())
             return 0;
 
