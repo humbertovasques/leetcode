@@ -40,7 +40,7 @@ public class Problem20 {
         return stack.isEmpty();
     }
 
-    public static boolean solve(String s) {
+    public static boolean isValidV1(String s) {
         char[] c = s.toCharArray();
         List<Character> chars = new ArrayList<>();
 
